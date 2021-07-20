@@ -18,4 +18,6 @@ require('dotenv').config();
     });
 
     await client.login({ clientId: process.env.applicationID }).catch(console.error); 
+
+applicationID=867029245002907728
 })();
